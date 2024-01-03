@@ -54,6 +54,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+flags = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flags@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-flags/tags). For example,
+
+```javascript
 flags = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flags@v0.1.0-umd/browser.js' )
 ```
 
@@ -66,7 +71,7 @@ var flags = require( 'path/to/vendor/umd/ndarray-flags/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flags@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flags@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -123,7 +128,7 @@ var o = flags( x );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-slice@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/slice-multi@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/slice-ctor@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flags@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-flags@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
