@@ -1,5 +1,5 @@
-"use strict";var u=function(r,e){return function(){return e||r((e={exports:{}}).exports,e),e.exports}};var a=u(function(l,t){
-var i=require('@stdlib/ndarray-base-flags/dist'),n=require('@stdlib/error-tools-fmtprodmsg/dist');function s(r){if(typeof r!="object"||r===null)throw new TypeError(n('1nzDv',r));return i(r,!0)}t.exports=s
-});var o=a();module.exports=o;
+"use strict";var i=function(r,e){return function(){try{return e||r((e={exports:{}}).exports,e),e.exports}catch(u){throw (e=0, u)}};};var a=i(function(p,t){
+var n=require('@stdlib/ndarray-base-flags/dist'),s=require('@stdlib/error-tools-fmtprodmsg/dist');function o(r){if(typeof r!="object"||r===null)throw new TypeError(s('1nzDv',r));return n(r,!0)}t.exports=o
+});var f=a();module.exports=f;
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
